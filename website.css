@@ -6,41 +6,19 @@
 
 	.font{text-shadow: 2px 2px red; font-family: 'Oleo Script Swash Caps', cursive}
 
-	p{text-shadow: 2px 2px black; font-family: Avengero;}
+	p{text-shadow: 2px 2px black; font-family: sans-serif; font-weight: 600;}
 
 	.image{width: 245px; border-radius: 10px}
 
-	img.image:hover{transform: scale(1.1); opacity: 0.8}
+	img.image:hover{transform: scale(0.9); opacity: 0.8}
 
 	.padding {padding-top: 10px}
 
-/*Avengereo Font Link*/
-
-	@import url(//db.onlinewebfonts.com/c/6cf5fc945fa852cfb8e613e984713d91?family=Avengero);
-
-	@font-face {font-family: "Avengero"; src: url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.eot"); 
-	src: url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.eot?#iefix") format("embedded-opentype"), 
-	url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.woff2") format("woff2"), 
-	url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.woff") format("woff"), 
-	url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.ttf") format("truetype"), 
-	url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.svg#Avengero") format("svg"); }
-
-/*Space Age Font Link*/
-
-	@import url(//db.onlinewebfonts.com/c/c936f19b94fa45553ab39066333e00aa?family=Space+Age);
-
-	@font-face {font-family: "Space Age"; src: url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.eot"); 
-	src: url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.eot?#iefix") format("embedded-opentype"), 
-	url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.woff2") format("woff2"), 
-	url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.woff") format("woff"), 
-	url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.ttf") format("truetype"), 
-	url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.svg#Space Age") format("svg"); }
-
 /*HOME*/
 
-	h2.Head1{word-spacing: 10px; text-shadow: 2px 2px red; font-family: Space Age;}
+	h2.Head1{word-spacing: 10px; text-shadow: 2px 2px red; font-family: sans-serif; font-weight: 600;}
 
-	h4{font-family: Avengero; text-shadow: 2px 2px red;}
+	h4{font-family: sans-serif; text-shadow: 2px 2px red; font-weight: 700;}
 
 	.mod1{ border-radius: 10px; width: 100%}
 	
@@ -74,14 +52,14 @@
 
 	.para{font-family: sans-serif;}
 
-	h2.Head2{word-spacing: 10px; text-shadow: 2px 2px green; font-family: Space Age;}
+	h2.Head2{word-spacing: 10px; text-shadow: 2px 2px green; font-family: sans-serif; font-weight: 600;}
 
 	.body2{	background-image: url("images/background/bg2.jpg"); 
 			background-attachment: fixed;
 			background-size: cover;
 			background-position: left;}
 
-	h2.Head3{word-spacing: 10px; text-shadow: 2px 2px blue; font-family: Space Age;}
+	h2.Head3{word-spacing: 10px; text-shadow: 2px 2px blue; font-family: sans-serif; font-weight: 600;}
 
 	video{width: 100%}
 
@@ -89,7 +67,7 @@
 			background-attachment: fixed;
 			background-size: cover;}
 
-	h2.Head5{text-shadow: 2px 2px dodgerblue; font-family: Space Age;}
+	h2.Head5{text-shadow: 2px 2px dodgerblue; font-family: sans-serif; font-weight: 600;}
 
 	.body5{	background-image: url("images/background/bg5.jpg");
 			background-attachment: fixed;
@@ -98,7 +76,7 @@
 
 /*ANTI-VIRUS*/
 
-	h2.Head4{word-spacing: 10px; text-shadow: 2px 2px dodgerblue; font-family: Space Age;}
+	h2.Head4{word-spacing: 10px; text-shadow: 2px 2px dodgerblue; font-family: sans-serif; font-weight: 600;}
 
 	.body4{	background-image: url("images/background/bg4.jpg");
 			background-attachment: fixed;
@@ -112,7 +90,7 @@
 
 	iframe{height: 480px; width: 100%; padding-top: 27px; border: none}
 
-	h2.Head6{text-shadow: 2px 2px #03e9f4; font-family: Space Age;}
+	h2.Head6{text-shadow: 2px 2px #03e9f4; font-family: sans-serif; font-weight: 600;}
 		
 	.body6{	background-image: url("images/background/bg6.jpg");
 			background-attachment: fixed;
@@ -120,7 +98,7 @@
 
 /*CONTACT US*/
 
-	h1.Head7{text-shadow: 2px 2px dodgerblue; font-family: Space Age;}
+	h1.Head7{text-shadow: 2px 2px dodgerblue; font-family: sans-serif; font-weight: 600;}
 
 	.body7{	background-image:url("images/background/bg7.jpg");
 			background-size: cover;
@@ -129,7 +107,7 @@
 
 /*ABOUT*/
 
-	h1.Head8{text-shadow: 2px 2px green; font-family: Space Age;}
+	h1.Head8{text-shadow: 2px 2px green; font-family: sans-serif; font-weight: 600;}
 
 	h3.Head9{text-shadow: 2px 2px black; font-family: 'Oleo Script Swash Caps', cursive}
 
@@ -139,7 +117,7 @@
 
 /*LOGIN*/
 
-	h2.Head10{text-shadow: 2px 2px yellow; font-family: Avengero;}
+	h2.Head10{text-shadow: 2px 2px yellow; font-family: sans-serif; font-weight: 600;}
 
 	.body9{	background-image: url("images/background/bg9.jpg");
 			background-attachment: fixed;
@@ -147,7 +125,7 @@
 
 /*CREATE ACCOUNT*/
 
-	h2.Head11{text-shadow: 2px 2px red; font-family: Avengero;}
+	h2.Head11{text-shadow: 2px 2px red; font-family: sans-serif; font-weight: 600;}
 
 	.mod4{width: 550px; padding-right: 100px; padding-top: 50px}
 
