@@ -2,7 +2,7 @@
 
 	a{text-decoration: none;}
 
-	.fa{padding: 5px; font-size: 25px; width: 50px; text-decoration: none;}
+	.fa{padding: 10px; font-size: 22px; width: 50px; text-decoration: none; border-radius: 110px}
 
 	.font{text-shadow: 2px 2px red; font-family: 'Oleo Script Swash Caps', cursive}
 
@@ -13,6 +13,8 @@
 	img.image:hover{transform: scale(0.9); opacity: 0.8}
 
 	.padding {padding-top: 10px}
+
+	h2.Head2{font-family: sans-serif; font-weight: 600;}
 
 /*HOME*/
 
@@ -52,22 +54,16 @@
 
 	.para{font-family: sans-serif;}
 
-	h2.Head2{word-spacing: 10px; text-shadow: 2px 2px green; font-family: sans-serif; font-weight: 600;}
-
 	.body2{	background-image: url("images/background/bg2.jpg"); 
 			background-attachment: fixed;
 			background-size: cover;
 			background-position: left;}
-
-	h2.Head3{word-spacing: 10px; text-shadow: 2px 2px blue; font-family: sans-serif; font-weight: 600;}
 
 	video{width: 100%}
 
 	.body3{	background-image: url("images/background/bg3.jpg");
 			background-attachment: fixed;
 			background-size: cover;}
-
-	h2.Head5{text-shadow: 2px 2px dodgerblue; font-family: sans-serif; font-weight: 600;}
 
 	.body5{	background-image: url("images/background/bg5.jpg");
 			background-attachment: fixed;
@@ -76,7 +72,6 @@
 
 /*ANTI-VIRUS*/
 
-	h2.Head4{word-spacing: 10px; text-shadow: 2px 2px dodgerblue; font-family: sans-serif; font-weight: 600;}
 
 	.body4{	background-image: url("images/background/bg4.jpg");
 			background-attachment: fixed;
@@ -84,21 +79,17 @@
 			
 /*NEWS*/
 
-	.image1{width: 100%; padding-top: 15px}
+	.image1{height: 300px; width: 280px; border: 2px solid silver; border-radius: 15px;}
 
 	.mod3{width: 400px;}
 
 	iframe{height: 480px; width: 100%; padding-top: 27px; border: none}
-
-	h2.Head6{text-shadow: 2px 2px #03e9f4; font-family: sans-serif; font-weight: 600;}
 		
 	.body6{	background-image: url("images/background/bg6.jpg");
 			background-attachment: fixed;
 			background-size: cover;}
 
 /*CONTACT US*/
-
-	h1.Head7{text-shadow: 2px 2px dodgerblue; font-family: sans-serif; font-weight: 600;}
 
 	.body7{	background-image:url("images/background/bg7.jpg");
 			background-size: cover;
@@ -107,9 +98,7 @@
 
 /*ABOUT*/
 
-	h1.Head8{text-shadow: 2px 2px green; font-family: sans-serif; font-weight: 600;}
-
-	h3.Head9{text-shadow: 2px 2px black; font-family: 'Oleo Script Swash Caps', cursive}
+	h3.Head9{font-family: sans-serif; text-align: justify;}
 
 	.body8{	background-image: url("images/background/bg8.jpg");
 			background-attachment: fixed;
@@ -117,17 +106,11 @@
 
 /*LOGIN*/
 
-	h2.Head10{text-shadow: 2px 2px yellow; font-family: sans-serif; font-weight: 600;}
-
 	.body9{	background-image: url("images/background/bg9.jpg");
 			background-attachment: fixed;
 			background-size: cover;}
 
 /*CREATE ACCOUNT*/
-
-	h2.Head11{text-shadow: 2px 2px red; font-family: sans-serif; font-weight: 600;}
-
-	.mod4{width: 550px; padding-right: 100px; padding-top: 50px}
 
 	.body10{background-image: url("images/background/bg10.jpg");
 			background-attachment: fixed;

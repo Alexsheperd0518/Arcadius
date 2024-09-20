@@ -27,43 +27,45 @@
 
 	<!-- Logo And Search Bar -->
 	<div class="w3-row w3-black">
-		<div class="w3-col s4 w3-left-align w3-mobile">
+		<div class="w3-col m6 l6">
 			<div class="w3-xxlarge font">
 				<a href="index.html"><img class="w3-circle" src="images/logo.gif" height="50px"></a>
 				Arcadius
 			</div>
 		</div>
 
-		<div class="w3-col s8 w3-right-align w3-mobile" style="padding-top: 14px">
-			<form onsubmit="alert('This function is not working yet. You need to set JavaScript for this function.')">
-			<a href="login.html" style=" font-family: sans-serif; font-weight: 600;" class="w3-text-green w3-large">Login</a>&nbsp;&nbsp;
-				<input type="text" placeholder="Enter Here" required="">
-				<button type="submit" class="w3-hover-green">Search</button>
+		<div class="w3-col m6 l6" style="padding-top:15px;">
+			<form onsubmit="alert('This function is not working yet. You need to set JavaScript for this function.')" style="display: flex; margin-left: 410px;">
+			<a href="login.html" style=" font-family: sans-serif; font-weight: 600; padding-top: 5px" class="w3-text-blue w3-hover-text-light-blue w3-large w3-round-large">Login</a>&nbsp;&nbsp;
+				<input type="text" placeholder="Enter here" required="" class="w3-input" style="width: 200px; height: 35px">&nbsp;
+				<button type="submit" class=" w3-button w3-blue w3-round-large w3-hover-light-blue w3-hover-text-white" style="padding: 5px 10px;">Search</button>
 			</form>
 		</div>	
 	</div>
 
 	<!-- Navigation Bar with Dropdown Button -->
-	<nav class="w3-container w3-blue w3-center" style="font-family: sans-serif; font-weight: 700;">
-		<div class="w3-dropdown-hover w3-mobile">
-			<button class="w3-button w3-blue w3-hover-deep-orange">GAMES</button>
+	<nav class="w3-container w3-black w3-center" style="font-family: sans-serif; font-weight: 700; font-size: 20px;">
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-black w3-hover-text-blue">Games</button>
 				<div class="w3-dropdown-content w3-bar-block w3-card-4">
-					<a href="pcgame.html" class="w3-bar-item w3-button w3-hover-deep-orange">PC GAMES</a>
-					<a href="playstation.html" class="w3-bar-item w3-button w3-hover-deep-orange">PLAYSTATION GAMES</a>		
+					<a href="pcgame.html" class="w3-bar-item w3-button w3-hover-black w3-hover-text-blue">Pc</a>
+					<a href="playstation.html" class="w3-bar-item w3-button w3-hover-black w3-hover-text-blue">PlayStation</a>		
 				</div>
 		</div>
 
-		<div class="w3-dropdown-hover w3-mobile">
-			<button class="w3-button w3-blue w3-hover-purple">SOFTWARES</button>
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-black w3-hover-text-blue">Softwares</button>
 				<div class="w3-dropdown-content w3-bar-block w3-card-4">
-					<a href="antivirus.html" class="w3-bar-item w3-button w3-hover-purple">ANTI-VIRUS</a>
-					<a href="softwares.html" class="w3-bar-item w3-button w3-hover-purple">OTHER SOFTWARES</a>
+					<a href="antivirus.html" class="w3-bar-item w3-button w3-hover-black w3-hover-text-blue">Anti-Virus</a>
+					<a href="softwares.html" class="w3-bar-item w3-button w3-hover-black w3-hover-text-blue">Other Software</a>
 				</div>
 		</div>
-			<a href="news.html"><button class="w3-button  w3-mobile w3-hover-green">NEWS</button></a>
-			<a href="contact.html"><button class="w3-button  w3-mobile w3-hover-red">CONTACT ME</button></a>
-			<a href="about.html"><button class="w3-button  w3-mobile w3-hover-grey">ABOUT</button></a>
+			<a href="news.html"><button class="w3-button w3-hover-black w3-hover-text-blue">News</button></a>
+			<a href="contact.html"><button class="w3-button w3-hover-black w3-hover-text-blue">Contact</button></a>
+			<a href="about.html"><button class="w3-button w3-hover-black w3-hover-text-blue">About</button></a>
 	</nav>
+
+
 
 	<!-- SlideShow -->
 	<section class="w3-section" style="padding-left: 10px; padding-right: 10px">
@@ -157,28 +159,28 @@
 			<!-- Heading 1 -->
 			<h2 class="Head1 w3-bar w3-black w3-text-white w3-center"><marquee direction= "right">SPECIAL OFFERS</marquee></h2>
 			<div class="w3-row w3-center">
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.epicgames.com/en-US/p/world-war-z" target="_blank">
 					<img class="image" src="images/offer1.jpg"></a>
 					<p class="w3-text-white">WORLD WAR Z<br>AFTERMATH</p>
 					<p class="w3-text-white"><strike>Rs.939/-</strike><br>Rs.564/-</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.rockstargames.com/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition?_gl=1*12jiy9e*_ga*MTc0NjM4ODQ1OC4xNjUwODg5MTAw*_ga_PJQ2JYZDQC*MTY1NDQzODMwMC42LjEuMTY1NDQzODk2NS4w" target="_blank">
 					<img class="image" src="images/offer2.jpg"></a>
 					<p class="w3-text-white">GTA trilogy<br>Definitive Edition </p>
 					<p class="w3-text-white"><strike>Rs.4,994/-</strike><br>Rs.3,347/-</p>		
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.epicgames.com/en-US/p/star-wars-jedi-fallen-order" target="_blank">
 					<img class="image" src="images/offer3.jpg"></a>
 					<p class="w3-text-white">STAR WARS JEDI<br>FALLEN ORDER</p>
 					<p class="w3-text-white"><strike>Rs.2,499/-</strike><br>Rs.624/-</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/1137300/Sherlock_Holmes_Chapter_One/" target="_blank">
 					<img class="image" src="images/offer4.jpg"></a>
 					<p class="w3-text-white">SHERLOCK HOLMES<br>CHAPTER ONE</p>
@@ -189,28 +191,28 @@
 			<!-- Heading 2 -->
 			<h2 class="Head1 w3-bar w3-black w3-text-white w3-center"><marquee direction= "left">NEW RELEASES</marquee></h2>
 			<div class="w3-row w3-center">
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/" target="_blank">
 					<img class="image" src="images/new1.jpg"></a>
 					<p class="w3-text-white">FALL GUYS</p>
 					<p class="w3-text-white">Rs.529/-</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">
 					<img class="image" src="images/new2.jpg"></a>
 					<p class="w3-text-white">ELDEN RING</p>
 					<p class="w3-text-white">Rs.2,499/-</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/945360/Among_Us/" target="_blank">
 					<img class="image" src="images/new3.jpg"></a>
 					<p class="w3-text-white">AMONG US</p>
 					<p class="w3-text-white">Rs.199/-</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent/" target="_blank">
 					<img class="image" src="images/new4.jpg"></a>
 					<p class="w3-text-white">AMNESIA<br>THE DARK DESCENT</p>
@@ -221,25 +223,25 @@
 			<!-- Heading 3 -->
 			<h2 class="Head1 w3-bar w3-black w3-text-white w3-center"><marquee direction= "right">FREE TO PLAY</marquee></h2>
 			<div class="w3-row w3-center">
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/" target="_blank">
 					<img class="image" src="images/free1.jpg"></a>
 					<p class="w3-text-white">PUBG PC</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/1782210/Crab_Game/" target="_blank">
 					<img class="image" src="images/free2.jpg"></a>
 					<p class="w3-text-white">CRAB GAME</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/1190340/SUPER_PEOPLE/" target="_blank">
 					<img class="image" src="images/free3.jpg"></a>
 					<p class="w3-text-white">SUPER PEOPLE</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/1992850/Cyrahs_Ascent/" target="_blank">
 					<img class="image" src="images/free4.jpg"></a>
 					<p class="w3-text-white">CYRAH ASCENT</p>
@@ -249,28 +251,28 @@
 			<!-- Heading 4 -->
 			<h2 class="Head1 w3-bar w3-black w3-text-white w3-center"><marquee direction= "left">SOFTWARES</marquee></h2>
 			<div class="w3-row w3-center">
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://www.microsoft.com/en-in/d/windows-10-pro/df77x4d43rkt?activetab=pivot%3aoverviewtab" target="_blank">
 					<img class="image" src="images/software1.jpg"></a>
 					<p class="w3-text-white">WINDOWS 10 PRO</p>
 					<p class="w3-text-white">Rs.16,515/-</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://www.quickheal.co.in/home-users/quick-heal-total-security/" target="_blank">
 					<img class="image" src="images/software2.jpg"></a>
 					<p class="w3-text-white">QUICK HEAL<br>TOTAL SECURITY</p>
 					<p class="w3-text-white">Rs.1,909/-</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://www.microsoft.com/en-in/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf?activetab=pivot:requirementstab" target="_blank">
 					<img class="image" src="images/software3.jpg"></a>
 					<p class="w3-text-white">MICROSOFT OFFICE<br>365 PERSONAL</p>
 					<p class="w3-text-white">Rs.4,889/-</p>
 				</div>
 
-				<div class="w3-col s3 mod2 w3-mobile">
+				<div class="w3-col s3 mod2 ">
 					<a href="https://store.steampowered.com/app/431960/Wallpaper_Engine/" target="_blank">
 					<img class="image" src="images/software4.jpg"></a>
 					<p class="w3-text-white">WALLPAPER ENGINE</p>
@@ -282,13 +284,13 @@
 	</div>
 		
 	<!-- Footer -->
-	<footer class="w3-bar w3-display-bottom w3-center w3-large w3-black">
+	<footer class="w3-bar w3-center w3-large w3-black" style="padding: 8px 0px;">
 		<div class="w3-row">
-			<div class="w3-col s6 w3-mobile">
+			<div class="w3-col s6 ">
 				<a href="#">Request Us</a>
 			</div>
 
-			<div class="w3-col s6 w3-mobile">Follow Us
+			<div class="w3-col s6 ">Follow Us
 				<a href="#" class="fa fa-youtube w3-hover-red">	 	</a>
 				<a href="#" class="fa fa-facebook w3-hover-blue">  	</a>
 				<a href="#" class="fa fa-instagram w3-hover-pink"> 	</a>
@@ -297,7 +299,7 @@
 			</div>
 		</div>
 		
-		<div class="w3-mobile">Maintained By Dushyant | &#169;2022-23 Copyright All Rights Reserved.</div>
+		<div class="">Maintained By Dushyant | &#169;2024-25 Copyright All Rights Reserved.</div>
 	</footer>
 	
 </body>

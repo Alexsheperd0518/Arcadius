@@ -27,71 +27,72 @@
 
 	<!-- Logo And Search Bar -->
 	<div class="w3-row w3-black">
-		<div class="w3-col s4 w3-left-align w3-mobile">
+		<div class="w3-col m6 l6">
 			<div class="w3-xxlarge font">
 				<a href="index.html"><img class="w3-circle" src="images/logo.gif" height="50px"></a>
 				Arcadius
 			</div>
 		</div>
 
-		<div class="w3-col s8 w3-right-align w3-mobile" style="padding-top: 14px">
-			<form onsubmit="alert('This function is not working yet. You need to set JavaScript for this function.')">
-			<a href="login.html" style=" font-family: sans-serif; font-weight: 600;" class="w3-text-green w3-large">Login</a>&nbsp;&nbsp;
-				<input type="text" placeholder="Enter Here" required="">
-				<button type="submit" class="w3-hover-green">Search</button>
+		<div class="w3-col m6 l6" style="padding-top:15px;">
+			<form onsubmit="alert('This function is not working yet. You need to set JavaScript for this function.')" style="display: flex; margin-left: 410px;">
+			<a href="login.html" style=" font-family: sans-serif; font-weight: 600; padding-top: 5px" class="w3-text-blue w3-hover-text-light-blue w3-large w3-round-large">Login</a>&nbsp;&nbsp;
+				<input type="text" placeholder="Enter here" required="" class="w3-input" style="width: 200px; height: 35px">&nbsp;
+				<button type="submit" class=" w3-button w3-blue w3-round-large w3-hover-light-blue w3-hover-text-white" style="padding: 5px 10px;">Search</button>
 			</form>
-		</div>
-	</div>
-
-	<!-- Navigation Bar with Dropdown Button -->
-	<nav class="w3-container w3-deep-orange w3-center" style="font-family: sans-serif; font-weight: 700;">
-		<div class="w3-dropdown-hover w3-mobile ">
-			<button class="w3-button w3-deep-orange w3-hover-green">GAMES</button>
-				<div class="w3-dropdown-content w3-bar-block w3-card-4">
-					<a href="pcgame.html" class="w3-bar-item w3-button w3-hover-green">PC GAMES</a>
-					<a href="playstation.html" class="w3-bar-item w3-button w3-hover-green">PLAYSTATION GAMES</a>		
-				</div>
-		</div>
-
-		<div class="w3-dropdown-hover w3-mobile ">
-			<button class="w3-button w3-deep-orange w3-hover-purple">SOFTWARES</button>
-				<div class="w3-dropdown-content w3-bar-block w3-card-4">
-					<a href="antivirus.html" class="w3-bar-item w3-button w3-hover-purple">ANTI-VIRUS</a>
-					<a href="softwares.html" class="w3-bar-item w3-button w3-hover-purple">OTHER SOFTWARES</a>		
-				</div>
-		</div>
-			<a href="news.html"><button class="w3-button w3-mobile w3-hover-blue">NEWS</button></a>
-			<a href="contact.html"><button class="w3-button w3-mobile w3-hover-aqua">CONTACT ME</button></a>
-			<a href="about.html"><button class="w3-button w3-mobile w3-hover-grey">ABOUT</button></a>
-	</nav>
-
-	<!-- About Us Content -->
-	<div class="w3-row-padding w3-center">
-		<!-- <div class="w3-col s3 w3-display-left">
-			<video src="video.mp4" controls></video>
-		</div>
- -->
-		<div class="w3-col s6 w3-justify w3-card-4 w3-round-large w3-display-middle">
-			<h1 class="Head8 w3-center">ABOUT ME</h1>
-			<img class="w3-circle" src="images/mypic.jpg" width="120px" style="float: left; margin: 5px;">
-			<h3 class="Head9 w3-text-white">
-				Hello Users, this is me Dushyant (Web Developer). I am welcoming all of you with a warm heart. I have created arcadius website to serve as a digital content distribution channel. This is my Gaming and Software website. I want to grow this website into a platform for thousands of creators and publishers to deliver content and establish direct relationships with their customers. All games and software listed on this site are linked by their official website, So you can freely click on them without thinking about ransomware.We will Regularly updated new games and software release in the tech world as fast as possible.
-			</h3>
-		</div>
-	
-		<div class="w3-col s3 w3-display-right">
-			<audio src="audio.wav" controls></audio>
 		</div>	
 	</div>
 
+	<!-- Navigation Bar with Dropdown Button -->
+	<nav class="w3-container w3-black w3-center" style="font-family: sans-serif; font-weight: 700; font-size: 20px;">
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-black w3-hover-text-blue">Games</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="pcgame.html" class="w3-bar-item w3-button w3-hover-black w3-hover-text-blue">Pc</a>
+					<a href="playstation.html" class="w3-bar-item w3-button w3-hover-black w3-hover-text-blue">PlayStation</a>		
+				</div>
+		</div>
+
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-black w3-hover-black w3-hover-text-blue">Softwares</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="antivirus.html" class="w3-bar-item w3-button w3-hover-black w3-hover-text-blue">Anti-Virus</a>
+					<a href="softwares.html" class="w3-bar-item w3-button w3-hover-black w3-hover-text-blue">Other Software</a>
+				</div>
+		</div>
+			<a href="news.html"><button class="w3-button w3-hover-black w3-hover-text-blue">News</button></a>
+			<a href="contact.html"><button class="w3-button w3-hover-black w3-hover-text-blue">Contact</button></a>
+			<a href="about.html"><button class="w3-button w3-hover-black w3-hover-text-blue">About</button></a>
+	</nav>
+
+	<!-- About Us Content -->
+	<div style="margin: 30px 0px;">
+		<div class="w3-justify w3-padding w3-round-large" style="margin: auto; background-color: rgba(32, 34, 35, 0.724); width: 50%;">
+			<h2 class="Head2 w3-center w3-text-blue">About Us</h2>
+			<h5 class="w3-text-white">
+					Hey there, fellow creators and gamers!
+		
+					I'm Dushyant, a passionate Web Developer, and I'm thrilled to welcome you to "Arcadius" your ultimate destination for gaming and software content! 🎮💻 <br><br>
+		
+					Arcadius isn't just another website. It’s a growing "digital content hub" where creators and publishers can share their work and build meaningful connections with their audience. Whether you're looking for the latest games or cutting-edge software, we've got you covered! <br><br>
+		
+					All the content on Arcadius links directly to official sites, so no worries about shady downloads or malware. Just "click, explore, and enjoy" with peace of mind. 🌐 Stay tuned for the freshest releases in the gaming and tech world, updated regularly to keep you ahead of the curve. Let’s build something awesome together! <br><br>
+		
+					Welcome to "Arcadius" where tech and gaming unite! <br>
+		
+					#GameOn #TechLife #Arcadius
+			</h5>
+		</div>
+	</div>
+
 	<!-- Footer -->
-	<footer class="w3-bar w3-center w3-large w3-black w3-bottom">
+	<footer class="w3-bar w3-center w3-large w3-black" style="padding: 8px 0px;">
 		<div class="w3-row">
-			<div class="w3-col s6 w3-mobile">
+			<div class="w3-col s6 ">
 				<a href="">Request Us</a>
 			</div>
 
-			<div class="w3-col s6 w3-mobile">Follow Us
+			<div class="w3-col s6 ">Follow Us
 				<a href="#" class="fa fa-youtube w3-hover-red">	 	</a>
 				<a href="#" class="fa fa-facebook w3-hover-blue">  	</a>
 				<a href="#" class="fa fa-instagram w3-hover-pink"> 	</a>
@@ -100,7 +101,7 @@
 			</div>
 		</div>
 		
-		<div class="w3-mobile">Maintained By Dushyant | &#169;2022-23 CopyRight All Rights Reserved.</div>
+		<div class="">Maintained By Dushyant | &#169;2024-25 CopyRight All Rights Reserved.</div>
 	</footer>
 	
 </body>
